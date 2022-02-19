@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* chinh logo */
+.logo{
+    font-family: cursive;
+    color: green;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 135px;
+    font-weight: bold; /*to dam chu */
+      
+
+}
+/* anh nen */
+body{
+    /* background-image: url(/images/nen.png); */
+    background-size: auto;
+    background-position: auto;   
+    font-family: sans-serif;
+    
+
+}
+
+
+/* menu me */
+.menu{
+    background: #fdfdfd;
+    text-align: center;
+
+}
+/* hien thi chu */
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+/*khoang cach o */
+.menu ul li{
+    width: 125px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/*chu menu*/
+.menu ul li a{
+    text-decoration: none; 
+    color: black;
+    font-family:initial;
+}
+/* khung nut menu hover*/
+.active, .menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+/* can le icon */
+.menu .fas{
+    margin-right: 5px;
+}
+
+/*menu con */
+.sub{
+    display: none;
+}
+/* khung hover menu con */
+.menu ul li:hover .sub{
+    display:table-caption;
+    position: absolute;
+    background: #2bab0d;
+    margin-top: 10px;
+    margin-left: -15px;
+    border-radius: 5px; /* lam uon cong */
+}
+/*can le dong chu */
+.menu ul li:hover .sub ul{
+    display: block;
+    margin: 10px;
+}
+/* khung chu */
+.menu ul li:hover .sub ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+/* cai cuoi khoi hien thi*/
+.menu ul li:hover .sub ul li:last-child{
+    border-bottom: none;
+}
+/* hover cua chu*/
+.menu ul li:hover .sub ul li a:hover{
+    color:honeydew;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    background-color: white;
+    z-index: 1; /* 1 tren all */
+    
+}
+/* side mo dau */
+.modau{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid #fffbee;
+    
+}
+.modau img{
+    width: 100%;
+    
+    position: absolute;
+}
+/* noi dung sp*/
+.noidung{
+    width: 100%;
+    height: 900px;
+    /* background-image: url(/images/anhnentreeshop.png); */
+   
+    border: 1px solid #fffbee;
+    margin-top: -50px;
+}
+/* chu  noi dung*/
+.noidung h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 20px;  
+    position: relative; 
+}
+.boxvideo{
+    width: 1100px;
+    height: 600px;
+    /* border: 1px solid gray; */
+    margin-top: 260px;
+    margin-left: 50px;
+    /* background-color: #1db954; */
+    position: relative;
+    border-radius: 5px;
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid rosybrown;
+    background-color: #1db954;
+    border-radius: 5px;
+    
+}
+.chumodau{
+    font-family: cursive;
+    font-weight: bold;
+    color: #841f00;
+    position: relative;
+    margin-top: 220px;
+    margin-left: 1250px;
+    width: 229px;
+    top: 130px;
+    float: left;
+    height: 20px;  
+    text-align: center;
+    font-size: 45px;
+}
+.noidung>img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.chunoidung{
+    color: black;
+    position: relative;
+    text-align: justify;
+    width: 1100px;
+    height: 270px;
+    font-family: cursive;
+    font-size: 30px;
+    left: 250px;
+
+}
+
+/*chan trang*/
+footer{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid grey;
+    position: relative;
+    margin-top: -30px;
+    
+}
+footer img{
+    width: 100%;
+    min-height: auto;
+    position: absolute;
+    
+}
+.chuchantrang{
+    width: 600px;
+    position: relative;
+    top: 325px;
+    left: 800px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;   
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+ 

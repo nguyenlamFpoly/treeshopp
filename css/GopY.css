@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* chinh logo */
+.logo{
+    font-family: cursive;
+    color: green;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 135px;
+    font-weight: bold; /*to dam chu */
+      
+
+}
+/* anh nen */
+body{
+    /* background-image: url(/images/nen.png); */
+    background-size: auto;
+    background-position: auto;   
+    font-family: sans-serif;
+
+}
+
+
+/* menu me */
+.menu{
+    background: #fdfdfd;
+    text-align: center;
+
+}
+/* hien thi chu */
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+/*khoang cach o */
+.menu ul li{
+    width: 125px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/*chu menu*/
+.menu ul li a{
+    text-decoration: none; 
+    color: black;
+    font-family:initial;
+}
+/* khung nut menu hover*/
+.active, .menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+/* can le icon */
+.menu .fas{
+    margin-right: 5px;
+}
+
+/*menu con */
+.sub{
+    display: none;
+}
+/* khung hover menu con */
+.menu ul li:hover .sub{
+    display:table-caption;
+    position: absolute;
+    background: #2bab0d;
+    margin-top: 10px;
+    margin-left: -15px;
+    border-radius: 5px; /* lam uon cong */
+}
+/*can le dong chu */
+.menu ul li:hover .sub ul{
+    display: block;
+    margin: 10px;
+}
+/* khung chu */
+.menu ul li:hover .sub ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+/* cai cuoi khoi hien thi*/
+.menu ul li:hover .sub ul li:last-child{
+    border-bottom: none;
+}
+/* hover cua chu*/
+.menu ul li:hover .sub ul li a:hover{
+    color:honeydew;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    background-color: white;
+    z-index: 1; /* 1 tren all */
+    
+}
+/* side mo dau */
+.modau{
+    width: 100%;
+    height: 999px;
+    background-color: #d6ede4;
+    position: absolute;
+    
+}
+.modau img{
+    width: 100%;
+    min-height: auto;
+    
+}
+.chumodau{
+    font-family: cursive;
+    font-weight: bold;
+    color: #841f00;
+    position: relative;   
+    margin-left: 1100px;
+    width: 229px;
+    top: 400px;
+    float: left;
+    height: 20px;  
+    text-align: center;
+    font-size: 50px;
+}
+/* noi dung sp*/
+.noidung{
+    width: 100%;
+    height: 1200px;
+    /* background-image: url(/images/anhnentreeshop.png); */
+    margin-top: 400px;
+    border: 1px solid rgb(51, 53, 153);
+
+}
+/* chu  noi dung*/
+.noidung h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    margin: 20px;
+    
+    
+
+}
+/* khung gop y */
+.GopY{
+    width: 700px;
+    height: 700px;
+    top: 260px;
+    left: 200px;
+    border: 1px solid #6747c7;
+    position: relative;
+    background-color: #d6ede4;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 22px;
+    
+}
+/* chinh tich voi */
+.voi{
+    margin-left: 69px;   
+}
+.voi1{
+    margin-left: 94px;   
+}
+.voi2{
+    margin-left: 93px;   
+}
+.voi3{
+    margin-left: 97px;   
+}
+.voi4{
+    margin-left: 110px;   
+}
+.voi:active{
+    background-color: #2bab0d;
+}
+.chinh{
+    margin: 27px;
+    font-size: 20px;
+}
+.canlechugopy{
+    margin-left: 30px;
+    
+}
+.canlechugopy1{
+    margin-left: 30px;
+    font-size: 18px;   
+}
+input[type="text"]{
+    margin-left: 30px;
+    width: 600px;
+    height: 33px;
+}
+textarea{
+    margin-left: 30px;
+    width: 600px;
+    height: 100px;
+}
+input[type="file"]{
+    margin-left: 30px;
+}
+button{
+    margin-left: 285px;
+    width: 100px;
+    height: 50px;
+    font-family: cursive;
+    background-color: #6747c7;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+
+/*chan trang*/
+footer{
+    width: 100%;
+    height: 600px;
+    border-top: 1px solid grey;
+    position: relative;
+    margin-top: 297px;
+    
+}
+footer img{
+    width: 100%;
+    min-height: auto;
+    position: absolute;
+    
+}
+.chuchantrang{
+    width: 600px;
+    position: relative;
+    top: 325px;
+    left: 800px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;   
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+ 
